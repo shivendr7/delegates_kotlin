@@ -38,4 +38,4 @@ For more info on this, see the Diamond Problem.
         Let’s start with the fun part. I will demonstrate how delegates work with adding
         the functionality of a ToolBar to an Android Activity.
         
-# Activity2 shows Kotlin's out of box support for delegates
+#### Activity2 shows Kotlin's out of box support for delegates
