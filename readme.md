@@ -16,21 +16,21 @@ because things are tightly coupled.
 
 In general, to reuse our code, we have multiple relationship options :
 
-1- ##Inheritance
+## 1- Inheritance
  It derives one class from another, so the relationship is: “is-a”, Like Cat is an Animal.
  It should be avoided in general in favor of association if we can. Also, in OOP,
  we can’t inherit from multiple classes.
 For more info on this, see the Diamond Problem.
 
-2- ##Association
+## 2- Association
  It defines a class as the sum of its parts (other classes). So whenever we need
  some functionality, we can call other objects and use their functionality
  in our class. Here the relationship is: “has-a”, Like Car has-an Engine.
  Association can be achieved by :
-    1- ### Aggregation
+    ### 1- Aggregation
         It is a weak association like every employee has an access card.
         Employees can exist on their own, and so the access card is.
-    2- ### Composition
+    ### 2- Composition
         It is a strong association, like a house has-a room, but a room can’t
         exist without a house. So the lifecycle of a room is controlled by the house.
         After all this, can we use association just like inheritance? Yes, Here is where Delegates shine!
