@@ -27,10 +27,11 @@ For more info on this, see the Diamond Problem.
  some functionality, we can call other objects and use their functionality
  in our class. Here the relationship is: “has-a”, Like Car has-an Engine.
  Association can be achieved by :
-    ### 1- Aggregation
+ 
+### 1- Aggregation
         It is a weak association like every employee has an access card.
         Employees can exist on their own, and so the access card is.
-    ### 2- Composition
+### 2- Composition
         It is a strong association, like a house has-a room, but a room can’t
         exist without a house. So the lifecycle of a room is controlled by the house.
         After all this, can we use association just like inheritance? Yes, Here is where Delegates shine!
