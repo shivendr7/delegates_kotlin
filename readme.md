@@ -37,3 +37,5 @@ For more info on this, see the Diamond Problem.
         After all this, can we use association just like inheritance? Yes, Here is where Delegates shine!
         Let’s start with the fun part. I will demonstrate how delegates work with adding
         the functionality of a ToolBar to an Android Activity.
+        
+# Activity2 shows Kotlin's out of box support for delegates
