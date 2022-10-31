@@ -1,4 +1,4 @@
-##Hello Delegates, Goodbye Base classes
+*Hello Delegates, Goodbye Base classes
 
 One of the things we used to do when starting new Android projects is set its Base classes, like
 BaseActivity, BaseFragment, BaseViewModel, BaseRecyclerAdapter…. and so on. So we have a structure
